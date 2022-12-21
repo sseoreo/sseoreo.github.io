@@ -13,7 +13,7 @@ page_data:
 
   category:
     - title: "Example"
-      type: id_example
+      type: id_ni
       color: "gray"
     - title: "Picture"
       type: id_picture
@@ -24,16 +24,16 @@ page_data:
 
   list:
     # example
-    - type: id_example
-      project_name: "Example Project"
-      project_excerpt: "Examples"
+    - type: id_ni
+      project_name: "VNF Deployment"
+      project_excerpt: "Network Intelligence (NI) project."
       img: ":project1_thumb.jpg"
       img_title: "img title1"
       date: "2021-03-13"
       post: |
         # Examples
 
-        This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
+        Com'on dude!
 
         ### Headings (centered)
         {:data-align="center"}
@@ -206,6 +206,7 @@ page_data:
         But bears it out even to the edge of doom.
         If this be error and upon me proved,
         I never writ, nor no man ever loved.
+    
     - type: id_quote
       project_name: "Example Project"
       project_excerpt: "Albert Einstein"
@@ -214,6 +215,7 @@ page_data:
       date: "2021-06-08"
       post: |
         Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
+    
     - type: id_quote
       project_name: "Example Project"
       project_excerpt: "Mae West"
@@ -222,6 +224,7 @@ page_data:
       date: "2021-08-20"
       post: |
         You only live once, but if you do it right, once is enough.
+    
     - type: id_quote
       project_name: "Example Project"
       project_excerpt: "Mahatma Gandhi "

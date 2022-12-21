@@ -2,7 +2,7 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Your Brand"
+brand: "Namjin Seo"
 
 # text below the brand name
 brand_sub_text: "$site_sample"
@@ -48,8 +48,8 @@ meta_common_description: "Your meta description."
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
-  #- email: ""
+  - github: "sseoreo"
+  - email: "njsseo25@gmail.com"
   #- linkedin: ""
   #- twitter: ""
   #- mastodon: ""
