@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Namjin Seo
     tagline: ML Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: njsseo25@gmail.com
@@ -213,10 +213,10 @@ projects:
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
     papers:
       - title: Player Detection and Team Classification in Sports Video Using Convolution Neural Network
         authors: Hyunsub Lee, __Namjin Seo__, Heeyoul Choi.
