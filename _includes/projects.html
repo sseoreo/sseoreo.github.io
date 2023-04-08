@@ -21,15 +21,32 @@
 
       <span class="project-title">
         {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+          <div class="upper-row">
+            <a href="{{ project.link }}" target="_blank">{{ project.title }} </a>   
+            <div class="time">{{ project.time }}</div>
+          </div><!--//upper-row-->
         {% else %}
-        {{ project.title }}
+          <div class="upper-row">
+            {{ project.title }} 
+            <div class="time">{{ project.time }}</div>
+          </div><!--//upper-row-->
+          
         {% endif %}
-      </span>
+        
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
+      </span>
+      <span class="tech-stack" style="display: inline-block; width: 95%; text-align: left;">
+        <b>{{ project.stack }}</b>
+      </span>
+      
+      <span class="project-tagline" style="display: inline-block; width: 95%; text-align: left;">
+        <b>Details</b>: {{ project.tagline | markdownify }}
+      </span>
+      <a href="#publications"><b>Achievements</b> {{ project.achievements-summary}} </a> 
+
+      <!-- <span class="project-achievements" style="display: inline-block; width: 95%; text-align: left;">
+        <b>Achievements</b> {{ project.achievements-summary}} {{ project.achievements-detail | markdownify }}
+      </span> -->
 
     </div><!--//item-->
   {% endfor %}
