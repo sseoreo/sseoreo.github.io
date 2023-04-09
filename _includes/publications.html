@@ -20,12 +20,26 @@
   {% for publication in publications.papers %}
   <div class="item">
     {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+      <li><a href="{{ publication.link }}"  target="_blank">{{ publication.title }}</a></li>
     {% else %}
       <li>{{ publication.title }}</li>
     {% endif %}
     <div class="publication-authors">{{ publication.authors | markdownify  }}</div>
     <div class="publication-conference">{{ publication.conference }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+  {% for publication in publications.patents %}
+  <div class="item">
+    {% if publication.link %}
+      <li><a href="{{ publication.link }}"  target="_blank" >{{ publication.title }}</a></li>
+    {% else %}
+      <li>{{ publication.title }}</li>
+    {% endif %}
+    <div class="publication-authors">{{ publication.authors | markdownify  }}</div>
+    
+    <div class="publication-no">{{ publication.no }}</div>
+    <div class="publication-date">{{ publication.date }}</div>
   </div><!--//item-->
   {% endfor %}
 

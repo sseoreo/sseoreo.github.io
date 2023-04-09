@@ -56,7 +56,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      안녕하세요 머신러닝 개발자 서남진입니다. 학부기간에 시작한 창업이 결국 대학원까지 이끌었습니다. 이제는… 정말로 더 잘할수 있습니다. 
+      안녕하세요 머신러닝 개발자 서남진입니다. 학부기간에 시작한 창업이 결국 저를 대학원까지 이끌었습니다. 이제는… 정말로 더 잘할수 있습니다. 
 
 education:
     title: Education
@@ -90,9 +90,9 @@ experiences:
         time: 2019.3 - 2021.12
         company: Leadia Inc., Pohang
         details: |
-            농구 분야에 딥러닝을 적용하여 문제 해결 업무 담당. 
+            농구 경기 분석 서비스 "Dreamshake" 구현.
               - 문제 파악 - 딥러닝적 접근 - 데이터수집 및 모델 설계/검증 역할 담당. 
-              - 서비스 출시, 논문 2건 게제 및 특허 4건 등록 기여. 
+              - 서비스 출시, 논문 2건 게재 및 특허 4건 등록 기여. 
 
 awards:
     title: Awards
@@ -103,20 +103,20 @@ awards:
         details: |
           제 8회 한동대학교 창업경진대회에 참가하여, "농구 영상에서 딥러닝을 이용한 경기 기록 자동 추출 시스템"을 소개하였고, 우수상을 수상하였습니다.
 
-      - role: 포항 대학 창업경진대회 우수
+      - role: 포항 4개 대학 창업아이디어 경진대회 우수상
         time: ‘19.11 ~ ‘19.11
         company: 포항창조경제혁신센터 주관
         details: |
           포항시와 포항창조경제혁신센터가 주관한 "포항 4개 대학 창업아이디어 경진대회"에 한동대학교 대표로 참가하여, 동일한 아이템으로 우수상을 수상하였습니다.
 
-      - role: 한동대학교 창업경진대회 우수상
-        time: ‘19.11 ~ ‘19.11
-        company: 한동대학교 주관
+      - role: 지역선도대학 SW산학협력 성과발표 우수상
+        time: ‘19.12 ~ ‘19.12
+        company: 경북대학교 주관
         details: |
           지역선도대학 SW산학협력 성과발표회에서, 농구 영상촬영업체인 드림쉐이크와 산학협력을 진행한 결과로, 우수상을 수상하였습니다.
 
 
-
+   
 # Object Detection 모델 학습 실험진행: Yolov3와 같은 객체탐지 딥러닝 모델을 활용하여, 선수/ 공/ 골대 검출. 파라미터 수정해가며 실험 진행 - 개발팀 공동업무.
 # 팀 분류 및 골 이벤트 검출모델 구현: CNN 기반의 Classification 모델을 구현 및 학습하여, 영상에서 검출된 선수의 팀 혹은 골과 같은 경기이벤트를 검출 (관련논문 2편 국내 학술대회 발표).
 # Siamese Network를 활용하여 선수들의 팀 분류 모델 구현.
@@ -149,6 +149,7 @@ projects:
         link: http://www.leadia.co.kr/tech.html
         stack: Pytorch, OpenCV, Object Detection, Pose Estimation.
         tagline: |
+          - **딥러닝 영상처리 농구경기 분석 솔루션 개발** (개발팀 2명 업무 분담).
           - **데이터 수집 및 가공**: 농구 경기 촬영팀 출장. 농구 경기 데이터 수집 및 레이블링 - 개발팀 공동업무.
           - **Object Detection 모델 학습 실험진행**: Yolov3와 같은 객체탐지 딥러닝 모델을 활용하여, 선수/ 공/ 골대 검출. 하이퍼파라미터 수정해가며 실험 진행 - 개발팀 공동업무.
           - **팀 분류 및 골 이벤트 검출모델 구현**: CNN 기반의 Classification 모델을 구현 및 학습하여, 영상에서 검출된 선수의 팀 혹은 골과 같은 경기이벤트를 검출 (관련논문 2편 국내 학술대회 발표).
@@ -175,10 +176,10 @@ projects:
         # link: http://www.leadia.co.kr/tech.html
         stack: Pytorch, Graph Neural Networks, Reinforcement Learning.
         tagline: |
-          - 강화학습 기반의 스케일링 액션을 이용하는 VNF배치 업데이트 방법 연구 진행 - 알고리즘 구현, 개선 및 실험 담당
-          - 그래프 형태의 가상 네트워크 데이터를 다루기 위해, Graph Neural Networks를 활용. 가상 네트워크 제약사항을 반영하도록 모델을 학습하기 위해, Reinforcement Learning (RL) 알고리즘을 활용.
-          - Python을 활용하여 네트워크 시뮬레이션 환경구성, Pytorch 및 Pytorch Geometric 프레임워크를 활용하여 모델 구현 및 학습. (관련 논문 1편 해외 학술대회 발표)
-          - 위에 언급한 모델 구조 및 학습 알고리즘 개선 (졸업 논문 작성 및 관련 논문 1편 해외 저널 제출 - Under review)
+          - **강화학습 기반의 스케일링 액션을 이용하는 VNF배치 업데이트 방법 연구 진행** (모델 및 알고리즘 구현, 개선, 실험 및 논문 작성 담당).
+          - **모델 구조 및 학습 알고리즘 제안**: 그래프 형태의 가상 네트워크 데이터를 다루기 위해, Graph Neural Networks를 활용. 가상 네트워크 제약사항을 반영하도록 모델을 학습하기 위해, Reinforcement Learning (RL) 알고리즘을 활용.
+          - **모델 및 알고리즘 구현, 실험**: Python을 활용하여 네트워크 시뮬레이션 환경구성, Pytorch 및 Pytorch Geometric 프레임워크를 활용하여 모델 구현 및 학습. (관련 논문 1편 해외 학술대회 발표)
+          - **알고리즘 개선 및 논문 작성** 위에 언급한 모델 구조 및 학습 알고리즘 개선 (졸업 논문 작성 및 관련 논문 1편 해외 저널 제출 - Under review)
         achievements-summary: (학위논문, 해외학술대회 논문 1편 발표 + (저널 1편 Under review))
         achievements-detail: |
           - **Namjin Seo**, DongNyeong Heo, J. Hong, H. Kim, J. Yoo, J. W. Hong, H. Choi., "Updating VNF deployment with Scaling Actions using Reinforcement Algorithms," 2022 23rd Asia-Pacific Network Operations and Management Symposium (APNOMS), Takamatsu, Japan, 2022, pp. 1-4, doi: 10.23919/APNOMS56106.2022.9919943.
@@ -190,8 +191,9 @@ projects:
         # link: http://www.leadia.co.kr/tech.html
         stack: Pytorch, Natural Language Processing
         tagline: |
-          - Language Model 기반의 토큰 예측 모델 구현 및 학습진행 - 모델 구현 및 학습 담당
-
+          - **Language Model 기반의 토큰 예측 모델 구현 및 학습진행** (모델 구현 및 학습 담당).
+          - **토큰 타입 예측 모델구현 및 학습**: 앞뒤의 컨텍스트를 통해 토큰의 타입을 예측하는 Bi-directional Language Model 구현 및 학습.
+          - **토큰 위치 예측 모델구현 및 학습**: 어텐션 기반의 구조를 통해 토큰의 위치를 예측하는 모델 구현 및 학습
 # oss:
 #     title: OSS Contributions
 #     intro: >
@@ -221,15 +223,18 @@ publications:
       - title: Player Detection and Team Classification in Sports Video Using Convolution Neural Network
         authors: Hyunsub Lee, __Namjin Seo__, Heeyoul Choi.
         conference: 한국정보과학회 학술발표논문집, 2019
+        link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09302001
 
       - title: Goal Detection System in Basketball Video
         authors: __Namjin Seo__, Hyunsub Lee, Heeyoul Choi.
         conference: 한국정보과학회 학술발표논문집, 2021
+        link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11035807
 
       - title: "Updating VNF deployment with Scaling Actions using Reinforcement Algorithms"
-        link: "#"
+        link: https://doi.org/10.23919/APNOMS56106.2022.9919943
         authors: __Namjin Seo__, DongNyeong Heo, J. Hong, H. Kim, J. Yoo, J. W. Hong, H. Choi.
         conference: "2022 23rd Asia-Pacific Network Operations and Management Symposium (APNOMS)"
+
 
       - title: "Auto Scaling with Reinforcement Learning Algorithms for VNF Deployment"
         link: "#"
@@ -237,15 +242,33 @@ publications:
         conference: "석사학위논문, 한동대학교, 2023"
 
       - title: "Graph Neural Networks with Reinforcement Learning for Advanced VNF Scaling in Network Management"
-        link: "#"
+        link: "https://dx.doi.org/10.2139/ssrn.4353607"
         authors: __Namjin Seo__, DongNyeong Heo, H. Choi..
         conference: "under review in a journal (Neural Networks)"
 
 
     patents:
-      - title:
-        Patent No.: 2w
+      - title: 영상 정보로부터 추출한 움직임 정보 기반의 빅데이터 서비스 장치, 방법, 컴퓨터 판독 가능한 기록 매체 및 컴퓨터 프로그램
+        authors: |
+          리디아 주식회사. 특허 출원번호 1020210063835, 출원일 2021년 5월 18일, 등록일 2022년 1월 3일.
+        link: https://doi.org/10.8080/1020210063835
 
+      - title: 움직임 정보 기반의 신체 자세 피드백 서비스 장치, 방법, 컴퓨터 판독 가능한 기록 매체 및 컴퓨터 프로그램
+        authors: |
+          리디아 주식회사. 특허 출원번호 1020210063835, 출원일 2021년 5월 18일, 등록일 2022년 1월 3일.
+        link: https://doi.org/10.8080/1020210063841
+
+      - title: 다중 신경망 모델 기반의 농구 경기 분석 장치 및 방법
+        authors: |
+          리디아 주식회사. 특허 출원번호 1020200087198. 출원일 2020년 7월 15일, 등록일 2021년 1월 27일.
+        link: https://doi.org/10.8080/1020200087198
+      
+      - title: 2차원 좌표 기반의 농구 경기 분석 장치 및 방법
+        authors: |
+          리디아 주식회사. 특허 출원번호 1020200087198, 출원일 2020년 7월 15일, 등록일 2021년 1월 28일.
+        link: https://doi.org/10.8080/1020200087182
+        
+      
 
 # skills:
 #     title: Skills &amp; Proficiency

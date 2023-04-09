@@ -42,7 +42,11 @@
       <span class="project-tagline" style="display: inline-block; width: 95%; text-align: left;">
         <b>Details</b>: {{ project.tagline | markdownify }}
       </span>
+
+
+      {% if project.achievements-summary %}
       <a href="#publications"><b>Achievements</b> {{ project.achievements-summary}} </a> 
+      {% endif %}
 
       <!-- <span class="project-achievements" style="display: inline-block; width: 95%; text-align: left;">
         <b>Achievements</b> {{ project.achievements-summary}} {{ project.achievements-detail | markdownify }}
